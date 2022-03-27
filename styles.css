@@ -1,0 +1,81 @@
+body {
+  /* background: #05c46b; */
+  background: url(https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  text-transform: capitalize;
+  outline: none;
+}
+#title {
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 45px;
+}
+#description {
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+#survey-form {
+  background: #fff;
+  max-width: 650px;
+  border-radius: 2px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+.form-control {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.form-control label {
+  display: block;
+  margin-bottom: 6px;
+}
+.form-control input,
+.form-control select {
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+.form-control input[type='radio'],
+.form-control input[type='checkbox'] {
+  display: inline-block;
+  width: auto;
+}
+#name,
+#email,
+#number {
+  width: 97%;
+}
+.form-control textarea {
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 97%;
+}
+button {
+  background: #05c46b;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+button:hover {
+  background: #64e9a7;
+}
